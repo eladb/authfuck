@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3E166A119E5109400A06E59 /* AuthfuckClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E166A019E5109400A06E59 /* AuthfuckClient.swift */; };
+		F464CC4D19E4BB6C00411B8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464CC4C19E4BB6C00411B8E /* AppDelegate.swift */; };
+		F464CC4F19E4BB6C00411B8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464CC4E19E4BB6C00411B8E /* ViewController.swift */; };
+		F464CC5219E4BB6C00411B8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F464CC5019E4BB6C00411B8E /* Main.storyboard */; };
+		F464CC5419E4BB6C00411B8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F464CC5319E4BB6C00411B8E /* Images.xcassets */; };
+		F464CC5719E4BB6C00411B8E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F464CC5519E4BB6C00411B8E /* LaunchScreen.xib */; };
+		F464CC6319E4BB6C00411B8E /* authfuckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464CC6219E4BB6C00411B8E /* authfuckTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F464CC5D19E4BB6C00411B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F464CC3F19E4BB6C00411B8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F464CC4619E4BB6C00411B8E;
+			remoteInfo = authfuck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3E166A019E5109400A06E59 /* AuthfuckClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthfuckClient.swift; sourceTree = "<group>"; };
+		F464CC4719E4BB6C00411B8E /* authfuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = authfuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F464CC4B19E4BB6C00411B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F464CC4C19E4BB6C00411B8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F464CC4E19E4BB6C00411B8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F464CC5119E4BB6C00411B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F464CC5319E4BB6C00411B8E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F464CC5619E4BB6C00411B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F464CC5C19E4BB6C00411B8E /* authfuckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = authfuckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F464CC6119E4BB6C00411B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F464CC6219E4BB6C00411B8E /* authfuckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authfuckTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F464CC4419E4BB6C00411B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F464CC5919E4BB6C00411B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F464CC3E19E4BB6C00411B8E = {
+			isa = PBXGroup;
+			children = (
+				F464CC4919E4BB6C00411B8E /* authfuck */,
+				F464CC5F19E4BB6C00411B8E /* authfuckTests */,
+				F464CC4819E4BB6C00411B8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F464CC4819E4BB6C00411B8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F464CC4719E4BB6C00411B8E /* authfuck.app */,
+				F464CC5C19E4BB6C00411B8E /* authfuckTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F464CC4919E4BB6C00411B8E /* authfuck */ = {
+			isa = PBXGroup;
+			children = (
+				F464CC4C19E4BB6C00411B8E /* AppDelegate.swift */,
+				F464CC4E19E4BB6C00411B8E /* ViewController.swift */,
+				F464CC5019E4BB6C00411B8E /* Main.storyboard */,
+				F464CC5319E4BB6C00411B8E /* Images.xcassets */,
+				F464CC5519E4BB6C00411B8E /* LaunchScreen.xib */,
+				F464CC4A19E4BB6C00411B8E /* Supporting Files */,
+				C3E166A019E5109400A06E59 /* AuthfuckClient.swift */,
+			);
+			path = authfuck;
+			sourceTree = "<group>";
+		};
+		F464CC4A19E4BB6C00411B8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F464CC4B19E4BB6C00411B8E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F464CC5F19E4BB6C00411B8E /* authfuckTests */ = {
+			isa = PBXGroup;
+			children = (
+				F464CC6219E4BB6C00411B8E /* authfuckTests.swift */,
+				F464CC6019E4BB6C00411B8E /* Supporting Files */,
+			);
+			path = authfuckTests;
+			sourceTree = "<group>";
+		};
+		F464CC6019E4BB6C00411B8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F464CC6119E4BB6C00411B8E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F464CC4619E4BB6C00411B8E /* authfuck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F464CC6619E4BB6C00411B8E /* Build configuration list for PBXNativeTarget "authfuck" */;
+			buildPhases = (
+				F464CC4319E4BB6C00411B8E /* Sources */,
+				F464CC4419E4BB6C00411B8E /* Frameworks */,
+				F464CC4519E4BB6C00411B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = authfuck;
+			productName = authfuck;
+			productReference = F464CC4719E4BB6C00411B8E /* authfuck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F464CC5B19E4BB6C00411B8E /* authfuckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F464CC6919E4BB6C00411B8E /* Build configuration list for PBXNativeTarget "authfuckTests" */;
+			buildPhases = (
+				F464CC5819E4BB6C00411B8E /* Sources */,
+				F464CC5919E4BB6C00411B8E /* Frameworks */,
+				F464CC5A19E4BB6C00411B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F464CC5E19E4BB6C00411B8E /* PBXTargetDependency */,
+			);
+			name = authfuckTests;
+			productName = authfuckTests;
+			productReference = F464CC5C19E4BB6C00411B8E /* authfuckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F464CC3F19E4BB6C00411B8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Citylifeapps;
+				TargetAttributes = {
+					F464CC4619E4BB6C00411B8E = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					F464CC5B19E4BB6C00411B8E = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = F464CC4619E4BB6C00411B8E;
+					};
+				};
+			};
+			buildConfigurationList = F464CC4219E4BB6C00411B8E /* Build configuration list for PBXProject "authfuck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F464CC3E19E4BB6C00411B8E;
+			productRefGroup = F464CC4819E4BB6C00411B8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F464CC4619E4BB6C00411B8E /* authfuck */,
+				F464CC5B19E4BB6C00411B8E /* authfuckTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F464CC4519E4BB6C00411B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F464CC5219E4BB6C00411B8E /* Main.storyboard in Resources */,
+				F464CC5719E4BB6C00411B8E /* LaunchScreen.xib in Resources */,
+				F464CC5419E4BB6C00411B8E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F464CC5A19E4BB6C00411B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F464CC4319E4BB6C00411B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F464CC4F19E4BB6C00411B8E /* ViewController.swift in Sources */,
+				F464CC4D19E4BB6C00411B8E /* AppDelegate.swift in Sources */,
+				C3E166A119E5109400A06E59 /* AuthfuckClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F464CC5819E4BB6C00411B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F464CC6319E4BB6C00411B8E /* authfuckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F464CC5E19E4BB6C00411B8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F464CC4619E4BB6C00411B8E /* authfuck */;
+			targetProxy = F464CC5D19E4BB6C00411B8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F464CC5019E4BB6C00411B8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F464CC5119E4BB6C00411B8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F464CC5519E4BB6C00411B8E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F464CC5619E4BB6C00411B8E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F464CC6419E4BB6C00411B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F464CC6519E4BB6C00411B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F464CC6719E4BB6C00411B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = authfuck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F464CC6819E4BB6C00411B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = authfuck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F464CC6A19E4BB6C00411B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = authfuckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/authfuck.app/authfuck";
+			};
+			name = Debug;
+		};
+		F464CC6B19E4BB6C00411B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = authfuckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/authfuck.app/authfuck";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F464CC4219E4BB6C00411B8E /* Build configuration list for PBXProject "authfuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F464CC6419E4BB6C00411B8E /* Debug */,
+				F464CC6519E4BB6C00411B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F464CC6619E4BB6C00411B8E /* Build configuration list for PBXNativeTarget "authfuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F464CC6719E4BB6C00411B8E /* Debug */,
+				F464CC6819E4BB6C00411B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F464CC6919E4BB6C00411B8E /* Build configuration list for PBXNativeTarget "authfuckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F464CC6A19E4BB6C00411B8E /* Debug */,
+				F464CC6B19E4BB6C00411B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F464CC3F19E4BB6C00411B8E /* Project object */;
+}
